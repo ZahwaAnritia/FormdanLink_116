@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobi Saya</title>
+    <!-- CSS Global -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Khusus Halaman -->
+    <link rel="stylesheet" href="hobby.css">
+</head>
+<body>
+    <header>
+        <h1>Hobi Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="tentang.html">Tentang Saya</a></li>
+                <li><a href="hobby.html" class="active">Hobi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hobbies">
+            <h2>Hobi Favorit Saya</h2>
+            
+            <div class="hobby-card">
+                <img src="assets/makeup.jpg" alt="Make up">
+                <h3>Make up</h3>
+                <p>Saya sangat tertarik dengan dunia makeup dan selalu berusaha untuk mempelajari berbagai teknik serta tren terbaru. Makeup bagi saya bukan hanya soal penampilan, tapi juga sebagai bentuk ekspresi diri yang memungkinkan saya untuk lebih kreatif dan percaya diri.</p>
+            </div>
+            
+            <div class="hobby-card">
+                <img src="assets/voli.png" alt="Voli">
+                <h3>Voli</h3>
+                <p>Di waktu luang, saya suka bermain voli sebagai cara untuk menjaga kesehatan tubuh. Selain menyenangkan, olahraga ini juga membantu meningkatkan kekuatan fisik, koordinasi, dan keterampilan tim. Bermain voli memberi saya kesempatan untuk bersosialisasi dan melepaskan stres setelah aktivitas sehari-hari.</p>
+            </div>
+
+            <div class="hobby-card">
+                <img src="assets/desain.jpg" alt="Desain">
+                <h3>Desain</h3>
+                <p>Saya juga memiliki minat besar dalam desain, baik desain grafis maupun desain web. Saya senang berkreasi dan menemukan cara untuk menggabungkan estetika dengan fungsionalitas. Desain memberi saya kesempatan untuk mengekspresikan kreativitas dan menciptakan solusi visual yang menarik dan bermanfaat.</p>
+
+            </div>
+
+        </section>
+
+        <section class="hobby-form">
+            <h2>Bagikan Hobimu</h2>
+            <form>
+                <div class="form-group">
+                    <label for="hobby-name">Nama Hobi:</label>
+                    <input type="text" id="hobby-name" name="hobby-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="hobby-desc">Deskripsi:</label>
+                    <textarea id="hobby-desc" name="hobby-desc" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="hobby-category">Kategori:</label>
+                    <select id="hobby-category" name="hobby-category" required>
+                        <option value="">Pilih Kategori</option>
+                        <option value="olahraga">Olahraga</option>
+                        <option value="seni">Seni</option>
+                        <option value="teknologi">Teknologi</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </div>
+                <button type="submit">Tambahkan Hobi</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Website Pribadi. All rights reserved.</p>
+    </footer>
+</body>
+</html>

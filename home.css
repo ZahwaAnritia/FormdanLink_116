@@ -1,0 +1,43 @@
+/* Home Page Styles */
+.hero {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Custom styles for home page */
+.home-features {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.feature-box {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 30%;
+}
+
+@media (max-width: 768px) {
+    .home-features {
+        flex-direction: column;
+    }
+    
+    .feature-box {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

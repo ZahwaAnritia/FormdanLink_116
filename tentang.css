@@ -1,0 +1,59 @@
+/* About Page Styles */
+.about-me {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.skills li {
+    background: #e64f81;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    list-style: none;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.education-table th, .education-table td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.education-table th {
+    background: #35424a;
+    color: #fff;
+}
+
+.education-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Custom styles for about page */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
